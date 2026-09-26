@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>register.com</groupId>
-    <artifactId>Jersey_Project_template</artifactId>
+    <artifactId>REST_API_intro1</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <packaging>war</packaging>
