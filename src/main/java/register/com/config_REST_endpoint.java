@@ -1,10 +1,13 @@
 package register.com;
 
 import jakarta.ws.rs.ApplicationPath;
-import jakarta.ws.rs.core.Application; // or javax.ws.rs.* for older JAX-RS versions
+import org.glassfish.jersey.server.ResourceConfig;
 
-@ApplicationPath("webapi")
-public class config_REST_endpoint extends Application {
-    // Leave body empty
+@ApplicationPath("/webapi")
+public class config_REST_endpoint extends ResourceConfig {
+
+    public config_REST_endpoint() {
+        packages("register.com");
+
+    }
 }
-
